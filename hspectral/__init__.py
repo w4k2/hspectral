@@ -10,9 +10,10 @@ from ._version import __version__
 #from . import utils
 
 from . import generators
+from . import detectors
 
 __all__ = [
-    'generators', '__version'
+    'generators', 'detectors', '__version'
     #'controllers', 'ensembles', 'utils', '__version__'
 ]
 """
