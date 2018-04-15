@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 sys.path.insert(0, '../..')
 
 
-def test_bare_controller():
+def test_anomaly_generator():
     X, y = generators.generate_anomaly(random_state=1, n_anomalies = 4,
                                        noise_scale = .3)
     fig, ax = plt.subplots(4,1, figsize=(2,8))
