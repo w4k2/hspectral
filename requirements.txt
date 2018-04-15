@@ -1,0 +1,5 @@
+scipy
+liac-arff
+scikit-learn
+tqdm
+future
