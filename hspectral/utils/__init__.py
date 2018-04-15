@@ -1,5 +1,5 @@
-from .imbalancedStreams import minority_majority_name, minority_majority_split
+from .basic import convert2d, convert3d
 
 __all__ = [
-    'minority_majority_name', 'minority_majority_split'
+    'convert2d', 'convert3d'
 ]
