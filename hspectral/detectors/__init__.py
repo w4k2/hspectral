@@ -1,1 +1,1 @@
-from .RX import RX
+from .RX import RX, anisomedian_decision
