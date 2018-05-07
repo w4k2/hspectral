@@ -33,7 +33,7 @@ code-analysis:
 
 upload:
 	python setup.py sdist upload -r pypi
-	pip install --upgrade stream-learn
+	#pip install --upgrade stream-learn
 
 install: clean
 	pip uninstall stream-learn --yes
